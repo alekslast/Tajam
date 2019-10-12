@@ -97,22 +97,51 @@
             <h2>Meet Our Amazing Team</h2>
             <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
         </div>
-        <div class="wrap">
-            <div> 
+        <div class="team-list">
+            <div class="team-list-item"> 
                 <img src="" alt="">
                 <p><span>SEMF UCUK</span>CEO & FOUNDER</p>
+                <button class="btn-team btn-more btn-semf" type="button"><span></span></button>
+                <ul class="social-team social-semf" style="display:none;">
+                    <li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-tw"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-inst"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-youtube"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-mail"><span></span></a></li>
+                </ul>
             </div>
-            <div> 
+            <div class="team-list-item"> 
                 <img src="" alt="">
                 <p><span>DIK ADALIN</span>ENGINEERING</p>
+                <button class="btn-team btn-more btn-dik" type="button"><span></span></button>
+                <ul class="social-team social-dik" style="display:none;">
+                    <li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-tw"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-inst"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-youtube"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-mail"><span></span></a></li>
             </div>
-            <div> 
+            <div class="team-list-item"> 
                 <img src="" alt="">
                 <p><span>JENG KOL</span>DESIGNER</p>
+                <button class="btn-team btn-more btn-jeng" type="button"><span></span></button>
+                <ul class="social-team social-jeng" style="display:none;">
+                    <li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-tw"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-inst"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-youtube"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-mail"><span></span></a></li>
             </div>  
-            <div> 
+            <div class="team-list-item"> 
                 <img src="" alt="">
                 <p><span>PET ROMAK</span>MARKETING</p>
+                <button class="btn-team btn-more btn-pet" type="button"><span></span></button>
+                <ul class="social-team social-pet" style="display:none;">
+                    <li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-tw"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-inst"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-youtube"><span></span></a></li>
+                    <li><a href="" target="_blank" class="btn-team btn-mail"><span></span></a></li>
             </div>
         </div>
         <div class="team-low">   
@@ -166,5 +195,26 @@
         <a href=""></a>
         <p></p>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".btn-semf").click(function(){
+            $(".btn-semf").hide();
+            $(".social-semf").fadeIn();
+          });
+          $(".btn-dik").click(function(){
+            $(".btn-dik").hide();
+            $(".social-dik").fadeIn();
+          });
+          $(".btn-jeng").click(function(){
+            $(".btn-jeng").hide();
+            $(".social-jeng").fadeIn();
+          });
+          $(".btn-pet").click(function(){
+            $(".btn-pet").hide();
+            $(".social-pet").fadeIn();
+          });
+        });
+    </script>  
 </body>
 </html>

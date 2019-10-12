@@ -146,7 +146,7 @@ body {
 }
 
 
-.wrap {
+.team-list {
     display: flex;
     color: #fff;
     font-size: 13px;
@@ -155,11 +155,87 @@ body {
     margin: 0 auto;
     justify-content: space-around;
 }
-.wrap>div>p>span  {
+.team-list>div>p>span  {
     display: block;
     color: #fff;
     font-size: 14px;
     font-weight: 900;
+}
+.team-list-item-1 {
+    text-align: center;
+}
+.team-list-item .btn-team {
+    background-color: transparent;
+    border: 2px solid #00e0d0;
+    border-radius: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.team-list-item .btn-team:hover {
+    border: 2px solid #fff;
+}
+.team-list-item .btn-team span  {
+    background-image: url(../img/team-pic.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    display: block;
+}
+.team-list-item .btn-more span  {
+    background-position: -4px -28px;
+    height: 25px;
+    width: 25px;
+}  
+.team-list-item .btn-fb span  {
+    height: 25px;
+    width: 25px;
+    background-position: -26px -26px;
+}  
+.team-list-item .btn-tw span  {
+    height: 25px;
+    width: 25px;
+    background-position: -55px -26px;
+} 
+.team-list-item .btn-inst span  {
+    height: 25px;
+    width: 25px;
+    background-position: -83px -26px;
+} 
+.team-list-item .btn-youtube span  {
+    height: 25px;
+    width: 25px;
+    background-position: -119px -26px;
+} 
+.team-list-item .btn-mail span  {
+    height: 25px;
+    width: 25px;
+    background-position: -152px -26px;
+} 
+.team-list-item .btn-more:hover span {
+    background-position: -4px 1px;
+}
+.social-team {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.social-team .btn-youtube:hover span  {
+    background-position: -119px 4px;
+}
+.social-team .btn-mail:hover span {
+    background-position: -152px 2px;
+}
+.social-team .btn-inst:hover span  {
+    background-position: -83px 3px;
+}
+.social-team .btn-tw:hover span  {
+    background-position: -55px 3px;
+}
+.social-team .btn-fb:hover span  {
+    background-position: -26px 3px;
 }
 .grid-page {
     margin-top: 80px;
